@@ -9,7 +9,7 @@ const Reviews = () => {
           What our clients say
         </h2>
         <p className=" text-xl mt-2">
-          Here’s what our customers love about Meat & Cheezz!
+          Here&apos;s what our customers love about Meat & Cheezz!
         </p>
       </div>
       <div className="max-w-[90%] mx-auto py-10 flex flex-col md:flex-row gap-5">
@@ -36,7 +36,7 @@ const Reviews = () => {
           <p className="pt-3 line-clamp-3">
             When you come from a European country where you hardly find a good
             halal burger and then you visit meat and cheese you will go wild 😅.
-            It's really the best of the best , go for lady Gaga (The sandwich
+            It&apos;s really the best of the best , go for lady Gaga (The sandwich
             😉), it will put you directly in the mood and give you all the joy
             you expect from a perfect sandwich. The staff is really friendly and
             always smiling.
@@ -49,7 +49,7 @@ const Reviews = () => {
             <Image src="/star.png" alt="star" width={80} height={80} />
           </div>
           <p className="pt-3 line-clamp-4">
-            100000/10 burger. It's a must-visit spot that delivers on taste,
+            100000/10 burger. It&apos;s a must-visit spot that delivers on taste,
             presentation, and overall experience! I got the bob marley burger it
             was beyond delightful!!
           </p>
