@@ -13,13 +13,27 @@ body {
   -moz-text-stroke: 1px rgb(252, 252, 252);
 }
 
+.franchise-text {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+  font-style: italic;
+  -webkit-text-stroke: 12px black; /* Black stroke around the text */
+  
+}
+
+
 /* .tet {
   background: linear-gradient(360deg, #1d1d1b 62.01%, rgba(29, 29, 27, 0) 100%);
 } */
 
 .slider-component div {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center;;
+  width: 100%;
 }
 
 .slick-dots li.slick-active button::before {

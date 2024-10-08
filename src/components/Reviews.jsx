@@ -48,7 +48,7 @@ const Reviews = () => {
             <span className=" mr-3">5.0</span>
             <Image src="/star.png" alt="star" width={80} height={80} />
           </div>
-          <p className="pt-3 line-clamp-4">
+          <p className="pt-3 line-clamp-3">
             100000/10 burger. It&apos;s a must-visit spot that delivers on taste,
             presentation, and overall experience! I got the bob marley burger it
             was beyond delightful!!

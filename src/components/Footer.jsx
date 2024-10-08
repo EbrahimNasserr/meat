@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="w-full bg-heroTextColor py-24 flex justify-center items-center">
       <div className="container">
         <div className="w-[80%] mx-auto flex flex-col justify-between items-center">
-          <div className="w-full text-center sm:text-left bg-franchising-box-gradient shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-16 p-6 xl:flex-row">
+          <div className="w-full text-center sm:text-left bg-franchising-box-gradient h-[300px] shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-16 p-6 xl:flex-row">
             <div className="flex flex-col items-start">
               <h2 className=" text-5xl pl-3 font-bold text-stroke uppercase italic font-sans text-white">get in touch</h2>
               <p className=" text-slate-50 p-3 leading-5">

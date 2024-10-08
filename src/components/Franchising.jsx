@@ -5,10 +5,10 @@ const Franchising = () => {
   return (
     <section className="bg-heroTextColor flex justify-center items-center">
       <div className="container">
-      <h2 className="custom-h2">
+      <h2 className="custom-h2 mb-20 ">
         Franchising
       </h2>
-      <div className=" max-w-[90%] mx-auto py-24">
+      <div className=" max-w-[90%] mx-auto py-40">
         <div className="w-full relative p-6 bg-franchising-box-gradient shadow-custom-shadow rounded-3xl flex flex-col gap-4 justify-between items-center md:flex-row md:h-[400px]">
           <div className=" md:absolute lg:-bottom-5 md:left-0 md:-bottom-3">
             <Image
