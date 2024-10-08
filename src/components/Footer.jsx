@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="w-full bg-heroTextColor py-24 flex justify-center items-center">
       <div className="container">
         <div className="w-[80%] mx-auto flex flex-col justify-between items-center">
-          <div className="w-full text-center sm:text-left bg-franchising-box-gradient h-[300px] shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-16 p-6 xl:flex-row">
+          <div className="w-full text-center sm:text-left bg-franchising-box-gradient md:h-[300px] shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-16 p-6 xl:flex-row">
             <div className="flex flex-col items-start">
               <h2 className=" text-5xl pl-3 font-bold text-stroke uppercase italic font-sans text-white">get in touch</h2>
               <p className=" text-slate-50 p-3 leading-5">
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col text-center gap-12 items-center justify-center w-full mx-auto mt-24 md:flex-row md:justify-between">
             <div className=" text-slate-50">
-              <div className="flex justify-center items-center md:justify-start mb-3">
+              <Link href="/" className="flex justify-center items-center md:justify-start mb-3">
                 <Image
                   src="/image 1.png"
                   width={100}
@@ -40,7 +40,7 @@ const Footer = () => {
                   alt="logo"
                   loading="lazy"
                 />
-              </div>
+              </Link>
               <h3 className="text-3xl font-semibold capitalize my-3">
                 connect with us
               </h3>

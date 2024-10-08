@@ -17,7 +17,13 @@ const Reviews = () => {
             <h2 className=" font-bold uppercase text-xl">John Kim</h2>
             <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
               <span className=" mr-3">5.0</span>
-              <Image src="/Star.png" alt="star" width={80} height={80} />
+              <Image
+                src="/Star.png"
+                alt="star"
+                width={80}
+                height={80}
+                loading="lazy"
+              />
             </div>
             <p className="pt-3 line-clamp-3">
               My favorite burger place in Amman. Small restaurant but it is very
@@ -33,7 +39,13 @@ const Reviews = () => {
             </h2>
             <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
               <span className=" mr-3">5.0</span>
-              <Image src="/Star.png" alt="star" width={80} height={80} />
+              <Image
+                src="/Star.png"
+                alt="star"
+                width={80}
+                height={80}
+                loading="lazy"
+              />
             </div>
             <p className="pt-3 line-clamp-3">
               When you come from a European country where you hardly find a good
@@ -48,7 +60,13 @@ const Reviews = () => {
             <h2 className=" font-bold uppercase text-xl"> Leen</h2>
             <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
               <span className=" mr-3">5.0</span>
-              <Image src="/Star.png" alt="star" width={80} height={80} />
+              <Image
+                src="/Star.png"
+                alt="star"
+                width={80}
+                height={80}
+                loading="lazy"
+              />
             </div>
             <p className="pt-3 line-clamp-3">
               100000/10 burger. It&apos;s a must-visit spot that delivers on

@@ -75,9 +75,7 @@ function SimpleSlider() {
         {/* feel the hype */}
         <div className="bg-layer-image bg-contain bg-no-repeat bg-right w-full">
           <div className=" py-28 max-w-[90%] mx-auto">
-            <h2 className="text-shadow ">
-              Feel the Hype
-            </h2>
+            <h2 className="text-shadow ">Feel the Hype</h2>
             <div className="flex flex-col gap-8 justify-between mt-12 md:flex-row-reverse xl:justify-evenly">
               <div className=" flex flex-col items-end gap-8">
                 <div className="box1 shadow-hype-custom-shadow flex flex-col justify-evenly items-center bg-box-gradient p-12 rounded-2xl w-full sm:flex-row md:flex-col md:w-[85%] lg:flex-row lg:w-full xl:w-[90%]">
@@ -99,6 +97,7 @@ function SimpleSlider() {
                       width={350}
                       height={250}
                       alt="group"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -121,6 +120,7 @@ function SimpleSlider() {
                       width={350}
                       height={250}
                       alt="group"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -145,6 +145,7 @@ function SimpleSlider() {
                       width={350}
                       height={250}
                       alt="group"
+                      loading="lazy"
                     />
                   </div>
                 </div>

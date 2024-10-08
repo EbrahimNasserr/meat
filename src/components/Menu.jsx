@@ -6,9 +6,7 @@ const Menu = () => {
   return (
     <section className="py-24 bg-heroTextColor flex justify-center items-center">
       <div className="container">
-        <h2 className="text-shadow">
-          Menu
-        </h2>
+        <h2 className="text-shadow">Menu</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-36 lg:grid-cols-3 gap-32 max-w-[90%] mx-auto py-36 md:flex-row">
           <div className="relative text-[#292E36] bg-white rounded-xl p-6 px-3 pb-12">
             <div className="flex justify-center absolute w-full -top-24">
@@ -18,6 +16,7 @@ const Menu = () => {
                 width={200}
                 height={200}
                 className=" max-md:w-[400px] md:w-[400px]"
+                loading="lazy"
               />
             </div>
             <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -51,6 +50,7 @@ const Menu = () => {
                 width={200}
                 height={200}
                 className=" md:w-[300px]"
+                loading="lazy"
               />
             </div>
             <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -84,6 +84,7 @@ const Menu = () => {
                 width={200}
                 height={200}
                 className="md:w-[250px]"
+                loading="lazy"
               />
             </div>
             <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">

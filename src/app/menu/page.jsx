@@ -5,10 +5,33 @@ import { CiHeart } from "react-icons/ci";
 const MenuPage = () => {
   return (
     <>
-      <section className=" h-screen bg-[#1d1d1b] relative ">
+      <section className=" h-[120vh] bg-[#1d1d1b] relative ">
         <div className="container w-full h-full mx-auto">
-          <div className="flex justify-center items-center w-full h-full">
-            <Image src="/menu-hero.png" className="z-40" alt="hero" width={1500} height={500} />
+          <div className="flex justify-center items-center w-[90%] md:w-full mx-auto h-full">
+            <div className="box w-[1230px] rounded-2xl p-6 bg-menuPage-layer-image bg-contain bg-right bg-no-repeat flex flex-col-reverse gap-4 md:flex-row justify-between items-center z-40 bg-white">
+              <div className="uppercase flex flex-col gap-3 items-center md:justify-start w-full md:w-[70%]">
+                <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold italic text-heroTextColor">
+                  Exclusive Offers
+                </h1>
+                <p className=" italic text-center md:text-start font-semibold text-xl sm:text-3xl md:text-4xl">
+                  Satisfy Your Cravings <br /> with Our Special Deals!
+                </p>
+                <div className="mt-5 flex w-full justify-center items-center">
+                  <Link href="/order" className="btn">
+                    order now
+                  </Link>
+                </div>
+              </div>
+              <div>
+                <Image
+                  src="/menuHero.png"
+                  alt="hero"
+                  width={700}
+                  height={700}
+                  className=""
+                />
+              </div>
+            </div>
           </div>
           <div className="absolute top-0 right-0">
             <Image
@@ -17,6 +40,7 @@ const MenuPage = () => {
               width={500}
               height={500}
               className=" lg:w-[800px] z-10 hidden lg:block"
+              loading="lazy"
             />
           </div>
           <div className="absolute top-[50%] md:-top-12 right-0">
@@ -26,6 +50,7 @@ const MenuPage = () => {
               width={250}
               height={250}
               className=" md:w-[500px] "
+              loading="lazy"
             />
           </div>
           <div className="absolute top-[20%]  md:top-0 left-0">
@@ -35,6 +60,7 @@ const MenuPage = () => {
               width={250}
               height={250}
               className=" md:w-[500px]"
+              loading="lazy"
             />
           </div>
         </div>
@@ -54,6 +80,8 @@ const MenuPage = () => {
                   width={200}
                   height={200}
                   className=" max-md:w-[400px] md:w-[400px]"
+                  loading="lazy"
+
                 />
               </div>
               <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -89,6 +117,8 @@ const MenuPage = () => {
                   width={200}
                   height={200}
                   className=" md:w-[300px]"
+                  loading="lazy"
+
                 />
               </div>
               <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -124,6 +154,7 @@ const MenuPage = () => {
                   width={200}
                   height={200}
                   className="md:w-[250px]"
+                  loading="lazy"
                 />
               </div>
               <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -159,6 +190,8 @@ const MenuPage = () => {
                   width={200}
                   height={200}
                   className=" max-md:w-[400px] md:w-[400px]"
+                  loading="lazy"
+
                 />
               </div>
               <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -194,6 +227,8 @@ const MenuPage = () => {
                   width={200}
                   height={200}
                   className=" md:w-[300px]"
+                  loading="lazy"
+
                 />
               </div>
               <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -229,6 +264,8 @@ const MenuPage = () => {
                   width={200}
                   height={200}
                   className="md:w-[250px]"
+                  loading="lazy"
+
                 />
               </div>
               <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
@@ -257,7 +294,6 @@ const MenuPage = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </section>
     </>

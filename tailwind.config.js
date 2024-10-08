@@ -13,6 +13,7 @@ module.exports = {
         navColor: "#FF9900",
         heroTextColor: "#DFAF26",
         boxColorBlack: "#1D1D1B",
+        boxColorGray: "#D9D9D9",
       },
       backgroundImage: {
         "hero-image": "url('/hero.png')",

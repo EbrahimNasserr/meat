@@ -13,9 +13,15 @@ const Header = () => {
   return (
     <header className="w-full flex justify-center items-center p-6 absolute top-0 left-0 right-0 z-50">
       <div className="container flex justify-between items-center">
-        <div className="logo">
-          <Image src="/image 1.png" alt="logo" width={81} height={91} />
-        </div>
+        <Link href="/" className="logo">
+          <Image
+            src="/image 1.png"
+            alt="logo"
+            width={81}
+            height={91}
+            loading="lazy"
+          />
+        </Link>
         <nav className=" text-slate-100 hidden lg:flex">
           <ul className="flex gap-16 items-center justify-between">
             <li>

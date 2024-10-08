@@ -9,7 +9,7 @@ const Franchising = () => {
         Franchising
       </h2>
       <div className=" max-w-[90%] mx-auto py-40">
-        <div className="w-full relative p-6 bg-franchising-box-gradient shadow-custom-shadow rounded-3xl flex flex-col gap-4 justify-between items-center md:flex-row md:h-[400px]">
+        <div className="w-full relative p-6 pb-12 bg-franchising-box-gradient shadow-custom-shadow rounded-3xl flex flex-col gap-4 justify-between items-center md:flex-row md:h-[400px]">
           <div className=" md:absolute lg:-bottom-5 md:left-0 md:-bottom-3">
             <Image
               src="/franchising.png"
@@ -17,10 +17,11 @@ const Franchising = () => {
               height={500}
               alt="franchising"
               className="md:w-[300px] lg:w-[500px]"
+              loading="lazy"
             />
           </div>
-          <div></div>
-          <div className=" w-1/2 flex flex-col text-center items-center gap-8">
+            <div></div>
+          <div className=" w-full md:w-[60%] flex flex-col text-center items-center gap-8">
             <h2 className="text-5xl lg:text-7xl text-stroke font-bold uppercase font-sans italic text-center text-slate-50">
               join our family
             </h2>

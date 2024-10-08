@@ -34,6 +34,7 @@ const Hero = () => {
             width={500}
             height={500}
             className="border-1 border-[#1D1D1B] border-solid lg:w-[800px] hidden lg:block"
+            loading="lazy"
           />
         </div>
         <div className="absolute top-[10%] lg:top-1/3 right-0 z-40">
@@ -43,6 +44,7 @@ const Hero = () => {
             width={200}
             height={300}
             className=" lg:w-[400px]"
+            loading="lazy"
           />
         </div>
         <div className="absolute bottom-0 left-0 z-40">
@@ -52,6 +54,7 @@ const Hero = () => {
             width={200}
             height={300}
             className=" lg:w-[400px]"
+            loading="lazy"
           />
         </div>
       </div>
