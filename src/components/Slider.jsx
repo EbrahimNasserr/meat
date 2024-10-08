@@ -75,7 +75,7 @@ function SimpleSlider() {
         {/* feel the hype */}
         <div className="bg-layer-image bg-contain bg-no-repeat bg-right w-full">
           <div className=" py-28 max-w-[90%] mx-auto">
-            <h2 className="text-center text-8xl italic relative font-bold uppercase text-slate-50 ">
+            <h2 className="text-shadow ">
               Feel the Hype
             </h2>
             <div className="flex flex-col gap-8 justify-between mt-12 md:flex-row-reverse xl:justify-evenly">

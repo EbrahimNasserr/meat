@@ -5,7 +5,7 @@ const Franchising = () => {
   return (
     <section className="bg-heroTextColor flex justify-center items-center">
       <div className="container">
-      <h2 className="custom-h2 mb-20 ">
+      <h2 className="text-shadow md:mb-20 max-sm:text-[40px] ">
         Franchising
       </h2>
       <div className=" max-w-[90%] mx-auto py-40">

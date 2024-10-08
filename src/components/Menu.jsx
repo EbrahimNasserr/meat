@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <section className="py-24 bg-heroTextColor flex justify-center items-center">
       <div className="container">
-        <h2 className="text-center text-7xl font-bold italic text-slate-50">
+        <h2 className="text-shadow">
           Menu
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-36 lg:grid-cols-3 gap-32 max-w-[90%] mx-auto py-36 md:flex-row">
