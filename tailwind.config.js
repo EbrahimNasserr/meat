@@ -17,6 +17,7 @@ module.exports = {
       backgroundImage: {
         "hero-image": "url('/hero.png')",
         "layer-image": "url('/Layer 2.png')",
+        "menuPage-layer-image": "url('/menu-page-layer.png')",
         "review-layer-image": "url('/review-layer.png')",
         "custom-gradient":
           "linear-gradient(360deg, #DFAF26 9%, rgba(223, 175, 38, 0) 100%)",
