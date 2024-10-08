@@ -16,7 +16,7 @@ const OurStory = () => {
                 to a local legend in the making
               </span>
               <p className="text-slate-50 mt-5 uppercase font-semibold text-2xl">
-                In less than five years, we've turned a regular burger joint
+                In less than five years, we&apos;ve turned a regular burger joint
                 into a trendsetter by sharing our passion with others and piling
                 on{" "}
                 <span className="text-heroTextColor font-bold">
