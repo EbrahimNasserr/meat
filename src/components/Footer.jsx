@@ -9,10 +9,10 @@ const Footer = () => {
     <footer className="w-full bg-heroTextColor py-24 flex justify-center items-center">
       <div className="container">
         <div className="w-[80%] mx-auto flex flex-col justify-between items-center">
-          <div className="w-full bg-franchising-box-gradient shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-16 p-6 xl:flex-row">
+          <div className="w-full text-center sm:text-left bg-franchising-box-gradient shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-16 p-6 xl:flex-row">
             <div className="flex flex-col items-start">
-              <h2 className="custom-h2">get in touch</h2>
-              <p className=" text-slate-50 p-3">
+              <h2 className=" text-5xl pl-3 font-bold text-stroke uppercase italic font-sans text-white">get in touch</h2>
+              <p className=" text-slate-50 p-3 leading-5">
                 To learn more about us or share your thoughts, please enter your
                 email on the right, and our team will get back to you.
               </p>
@@ -22,9 +22,9 @@ const Footer = () => {
                 type="email"
                 name="email"
                 placeholder="ENTER YOUR E-MAIL"
-                className="outline-none rounded-lg w-full p-2 mb-5"
+                className="outline-none rounded-lg w-full p-2 mb-5 md:mb-0"
               />
-              <button type="submit" className="btn">
+              <button type="submit" className=" py-3 px-8 bg-heroTextColor rounded-md font-bold uppercase text-slate-50">
                 {" "}
                 subscription
               </button>

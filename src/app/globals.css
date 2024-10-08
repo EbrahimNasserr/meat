@@ -9,13 +9,13 @@ body {
 }
 
 .text-stroke {
-  -webkit-text-stroke: 4px rgb(224, 175, 0); /* width and color */
+  -webkit-text-stroke: 2px rgb(224, 175, 0); /* width and color */
   -moz-text-stroke: 1px rgb(252, 252, 252);
 }
 
-.tet {
+/* .tet {
   background: linear-gradient(360deg, #1d1d1b 62.01%, rgba(29, 29, 27, 0) 100%);
-}
+} */
 
 .slider-component div {
   display: flex;
