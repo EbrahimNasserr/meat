@@ -1,14 +1,34 @@
+"use client";
+import { useEffect } from "react";
+import gsap from "gsap";
+import SplitType from "split-type";
 import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
+  useEffect(() => {
+    // Split the text into words and characters using SplitType
+    const typeSplit = new SplitType("[animate]", {
+      types: "lines, words, chars",
+      tagName: "span",
+    });
+
+    // GSAP animation for the words
+    gsap.from("[animate] .word", {
+      y: "100%",
+      opacity: 0,
+      duration: 0.9,
+      ease: "power1.out",
+      stagger: 0.1,
+    });
+  }, []);
   return (
-    <section className=" h-screen bg-hero-image bg-contain bg-[#1d1d1b] bg-no-repeat bg-center">
+    <section className=" h-screen bg-hero-image bg-contain bg-sectionColor bg-no-repeat bg-center">
       <div className="text-white flex flex-col items-center justify-center h-full relative">
-        <div className=" relative z-40 top-10 w-full">
-          <h1 className=" text-7xl text-heroTextColor font-bold text-center -rotate-[5deg] z-50 relative bottom-6 lg:bottom-20">
+        <div  className=" relative z-40 top-10 w-full">
+          <h1 animate="true" className=" text-7xl text-heroTextColor font-bold text-center -rotate-[5deg] z-50 relative bottom-6 lg:bottom-20">
             LETS <br />
-            <span className=" font-extrabold text-6xl md:text-8xl lg:text-[7rem] text-white text-stroke font-sans italic -rotate-[5deg]">
+            <span animate="true" className=" font-extrabold text-6xl md:text-8xl lg:text-[7rem] text-white text-stroke font-sans italic ">
               CHEEZZ IT!
             </span>
           </h1>
@@ -27,7 +47,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="absolute top-0 right-0">
+        <div  className="absolute top-0 right-0">
           <Image
             src="/hero2.png"
             alt="hero"
