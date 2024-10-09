@@ -8,8 +8,8 @@ const ManagementTeam = () => {
         <div className=" grid px-6 grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 pt-12">
           <div className="w-full h-[456px] bg-boxColorGray flex items-end">
             <div className="bg-heroTextColor text-slate-50 w-full text-center uppercase p-3 lg:hidden">
-              <h2 className="font-bold text-2xl">name</h2>
-              <p className="text-lg font-bold">coworker-role</p>
+              <h2 className="font-bold text-2xl">Bilal Qadoumi</h2>
+              <p className="text-lg font-bold">Operations Manager</p>
             </div>
           </div>
           <div className="w-full h-[456px] bg-boxColorGray flex items-end">
@@ -30,8 +30,8 @@ const ManagementTeam = () => {
         <div className="bg-heroTextColor w-full lg:grid px-24 gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 hidden">
           <div className=" w-full">
             <div className="bg-heroTextColor text-slate-50 w-full text-center uppercase p-3">
-              <h2 className="font-bold text-2xl">name</h2>
-              <p className="text-lg font-bold">coworker-role</p>
+              <h2 className="font-bold text-2xl">Bilal Qadoumi</h2>
+              <p className="text-lg font-bold">Operations Manager</p>
             </div>
           </div>
           <div className="">

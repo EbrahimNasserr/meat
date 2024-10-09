@@ -22,7 +22,7 @@ const MenuPage = () => {
                   </Link>
                 </div>
               </div>
-              <div>
+              <div className="">
                 <Image
                   src="/menuHero.png"
                   alt="hero"

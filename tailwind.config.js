@@ -14,7 +14,8 @@ module.exports = {
         heroTextColor: "#DFAF26",
         boxColorBlack: "#1D1D1B",
         boxColorGray: "#D9D9D9",
-        sectionColor:"#1d1d1b",
+        sectionColor: "#1d1d1b",
+        boxCareerColor: "#292E36",
       },
       backgroundImage: {
         "hero-image": "url('/hero.png')",
@@ -37,3 +38,4 @@ module.exports = {
   },
   plugins: [],
 };
+
