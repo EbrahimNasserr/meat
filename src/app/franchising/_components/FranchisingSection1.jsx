@@ -7,7 +7,7 @@ const FranchisingSection1 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="content">
             <h2 className="font-bold italic text-5xl sm:text-7xl text-heroTextColor">
-              Ready to <br /> "Cheezz it"?
+              Ready to <br /> &quot;Cheezz it&quot;?
             </h2>
             <p className="text-slate-50 py-7 font-bold italic text-3xl">
               Thank you for considering the opportunity to join the Meat &

@@ -36,7 +36,7 @@ const Section3 = () => {
                 <li className="font-medium uppercase text-md flex flex-col justify-center md:flex-row md:justify-start items-center my-3">
                   <CiStar className="text-3xl" />{" "}
                   <span className="mx-2 relative bottom-1">.</span> Working with
-                  and serving others- "sharing your life with the customer"
+                  and serving others- &quot;sharing your life with the customer&quot;
                 </li>
                 <li className="font-medium uppercase text-md flex flex-col justify-center md:flex-row md:justify-start items-center">
                   <CiStar className="text-3xl" />{" "}
