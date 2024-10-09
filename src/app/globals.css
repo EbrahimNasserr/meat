@@ -25,15 +25,31 @@ body {
     6.5px -6.5px 0 #000;
 }
 
+.slick-slider {
+  display: flex !important;
+}
+
 .slider-component div {
   display: flex !important;
-  justify-content: center;
-  width: 100%;
+  justify-content: center !important;
+  width: 95%;
+}
+
+.slick-dots {
+  bottom: -50px !important;
 }
 
 .slick-dots li.slick-active button::before {
   opacity: 0.75;
   color: white !important;
+}
+
+ .slick-next {
+  right: -8px !important;
+}
+
+.slick-prev {
+  left: -10px !important;
 }
 
 @layer utilities {

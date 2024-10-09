@@ -87,7 +87,7 @@ function SimpleSlider() {
                       Lorem ipsum dolor sit amet consectetur. Egestas nunc
                       convallis diam ridiculus
                     </p>
-                    <button className=" uppercase font-semibold text-heroTextColor ">
+                    <button className=" uppercase font-semibold text-heroTextColor mb-5 ">
                       more
                     </button>
                   </div>

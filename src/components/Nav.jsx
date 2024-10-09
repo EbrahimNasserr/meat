@@ -5,7 +5,7 @@ export default function Nav({ open, setOpen }) {
   const pathname = usePathname();
   return (
     <div
-      className={`fixed right-0 bg-slate-200 dark:bg-[#1F3352] top-0 w-full h-screen z-[9999] duration-1000 ${
+      className={`fixed right-0 bg-slate-200 top-0 w-full h-screen z-[9999] duration-1000 ${
         open ? " visible translate-y-0" : "invisible -translate-y-full"
       }`}
     >
@@ -32,7 +32,7 @@ export default function Nav({ open, setOpen }) {
           HOME
         </Link>
         <Link
-          href="/about"
+          href="/menu"
           onClick={() => {
             setOpen(!open);
           }}
@@ -45,7 +45,7 @@ export default function Nav({ open, setOpen }) {
           MENU
         </Link>
         <Link
-          href="/quran"
+          href="/our-story"
           onClick={() => {
             setOpen(!open);
           }}
@@ -58,7 +58,7 @@ export default function Nav({ open, setOpen }) {
           OUR STORY
         </Link>
         <Link
-          href="/Franchising"
+          href="/franchising"
           onClick={() => {
             setOpen(!open);
           }}
@@ -71,7 +71,7 @@ export default function Nav({ open, setOpen }) {
           Franchising
         </Link>
         <Link
-          href="/Careers"
+          href="/careers"
           onClick={() => {
             setOpen(!open);
           }}

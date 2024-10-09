@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import ManagementTeam from "./_components/MangementTeam";
 
 const OurStory = () => {
