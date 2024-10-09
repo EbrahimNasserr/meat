@@ -21,12 +21,15 @@ module.exports = {
         "hero-image": "url('/hero.png')",
         "layer-image": "url('/Layer 2.png')",
         "menuPage-layer-image": "url('/menu-page-layer.png')",
+        "franchisig-layer-image": "url('/Layer1-franchising.png')",
         "review-layer-image": "url('/review-layer.png')",
         "custom-gradient":
           "linear-gradient(360deg, #DFAF26 9%, rgba(223, 175, 38, 0) 100%)",
         "box-gradient": " linear-gradient(360deg, #292E36 0%, #1D1D1B 44.5%)",
         "franchising-box-gradient":
           " linear-gradient(180deg, #1D1D1B 0%, #44443F 100%)",
+        "franchising-page-gradient":
+          "linear-gradient(360deg, #1D1D1B 62.01%, rgba(41, 46, 54, 0) 100%)",
         "buttons-hero-background":
           "linear-gradient(360deg, #1d1d1b 62.01%, rgba(29, 29, 27, 0) 100%)",
       },
@@ -38,4 +41,3 @@ module.exports = {
   },
   plugins: [],
 };
-

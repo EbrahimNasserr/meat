@@ -10,6 +10,7 @@ import OurStory3 from "./_components/OurStory3";
 import OurStory4 from "./_components/OurStory4";
 import MissionAndVision from "./_components/MissionAndVision";
 
+
 const OurStory = () => {
   useEffect(() => {
     // Split the text into words and characters using SplitType
@@ -17,8 +18,6 @@ const OurStory = () => {
       types: "lines, words, chars",
       tagName: "span",
     });
-    
-
     // GSAP animation for the words
     gsap.from("[animate] .word", {
       y: "100%",

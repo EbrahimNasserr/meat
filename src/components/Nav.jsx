@@ -63,7 +63,7 @@ export default function Nav({ open, setOpen }) {
             setOpen(!open);
           }}
           className={`${
-            pathname === "/Franchising"
+            pathname === "/franchising"
               ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg  text-amber-500"
               : ""
           }`}

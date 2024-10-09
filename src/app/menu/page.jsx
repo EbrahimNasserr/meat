@@ -29,6 +29,7 @@ const MenuPage = () => {
                   width={700}
                   height={700}
                   className=""
+                  loading="lazy"
                 />
               </div>
             </div>

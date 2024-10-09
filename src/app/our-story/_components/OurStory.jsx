@@ -1,7 +1,6 @@
 import Image from "next/image";
-
 const OurStorySection = () => {
-    
+
   return (
     <>
       <section className="py-24 bg-sectionColor bg-layer-image bg-no-repeat bg-right">

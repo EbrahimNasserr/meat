@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
+
   useEffect(() => {
     // Split the text into words and characters using SplitType
     const typeSplit = new SplitType("[animate]", {
