@@ -27,7 +27,7 @@ const OurStory3 = () => {
                 </span>
                 or{""}
                 <span className="font-bold inline-block italic text-2xl text-heroTextColor mx-2">
-                  "شيزها"
+                &quot;شيزها&quot;
                 </span>
                 became the rallying cry, symbolizing their indulgent,
                 cheese-filled creations. From mozzarella pulls to cheddar dips,

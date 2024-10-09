@@ -23,7 +23,7 @@ const OurStory2 = () => {
                 iconic creations, they rebranded the restaurant, embracing a
                 fresh, modern logo with a vibrant pop-culture theme inspired by
                 what they personally loved in music and art that screamed,
-                "We&apos;re different, and we&apos;re here to stay."
+                &quot;We&apos;re different, and we&apos;re here to stay.&quot;
               </p>
             </div>
           </div>
