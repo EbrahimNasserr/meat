@@ -7,13 +7,13 @@ import { CiHeart } from "react-icons/ci";
 
 const Menu = () => {
   const { data, error, isLoading } = useGetProductsQuery();
-  if (isLoading) return <Loader />;
-  if (error) return <Error />;
   return (
     <section className="py-24 bg-heroTextColor flex justify-center items-center">
       <div className="container">
         <h2 className="text-shadow">Menu</h2>
         <div className="grid relative top-12 grid-cols-1 md:grid-cols-2 gap-12 gap-y-72 lg:grid-cols-3 max-w-[90%] mx-auto py-40 md:flex-row">
+          {isLoading && <Loader />}
+          {error && <Error />}
           {data?.data?.slice(0, 3).map((item) => (
             <div
               key={item.id}
@@ -46,7 +46,7 @@ const Menu = () => {
                   ADDONS
                 </p>
                 <p className="text-heroTextColor text-2xl font-semibold">
-                  {item.price+" "+"JOD"}
+                  {item.price + " " + "JOD"}
                 </p>
               </div>
               <div className="flex justify-center items-center">
@@ -59,7 +59,7 @@ const Menu = () => {
         </div>
         <div className="flex justify-center items-center">
           <Link
-            className=" py-4 px-12 bg-black rounded-lg uppercase text-slate-50"
+            className=" py-4 px-12 z-50 bg-black rounded-lg uppercase text-slate-50"
             href="/menu"
           >
             view menu

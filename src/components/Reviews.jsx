@@ -5,8 +5,7 @@ import Image from "next/image";
 
 const Reviews = () => {
   const { data, error, isLoading } = useGetReviewsQuery();
-  if (isLoading) return <Loader />;
-  if (error) return <Error />;
+
   return (
     <section className="w-full flex justify-center items-center py-24 bg-review-layer-image bg-white bg-no-repeat bg-right ">
       <div className="container">
@@ -19,6 +18,8 @@ const Reviews = () => {
           </p>
         </div>
         <div className="max-w-[90%] mx-auto py-10 flex flex-col md:flex-row gap-5">
+          {isLoading && <Loader />}
+          {error && <Error />}
           {data?.data?.slice(0, 3).map((item) => (
             <div
               key={item.id}
