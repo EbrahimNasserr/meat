@@ -4,6 +4,32 @@ const FranchisingSection1 = () => {
   return (
     <section className="py-24 bg-sectionColor">
       <div className="container mx-auto px-6 text-center md:text-left">
+        <div className=" justify-evenly gap-10 flex flex-col md:hidden pb-24 items-center bg-franchising-page-gradient w-full ">
+          <div className="w-full text-center">
+            <p className="text-6xl mb-5 md:text-7xl italic font-bold text-heroTextColor">
+              350K+
+            </p>
+            <h3 className="text-slate-50 font-medium text-2xl uppercase">
+              Sandwiches Crafted Per Location
+            </h3>
+          </div>
+          <div className="w-full text-center">
+            <p className="text-6xl mb-5 md:text-7xl italic font-bold text-heroTextColor">
+              60+
+            </p>
+            <h3 className="text-slate-50 font-medium text-2xl uppercase">
+              employees on our growing team
+            </h3>
+          </div>
+          <div className="w-full text-center">
+            <p className="text-6xl mb-5 md:text-7xl italic font-bold text-heroTextColor">
+              120K+
+            </p>
+            <h3 className="text-slate-50 font-medium text-2xl uppercase">
+              social media followers and millions of monthly viewers
+            </h3>
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="content">
             <h2 className="font-bold italic text-5xl sm:text-7xl text-heroTextColor">

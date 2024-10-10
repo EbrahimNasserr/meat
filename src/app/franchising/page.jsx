@@ -3,8 +3,11 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import SplitType from "split-type";
 import Image from "next/image";
-import Link from "next/link";
 import FranchisingSection1 from "./_components/FranchisingSection1";
+import FranchisingSection2 from "./_components/FranchisingSection2";
+import FranchisingSection3 from "./_components/FranchisingSection3";
+import FranchisingSection4 from "./_components/FranchisingSection4";
+import FranchisingSection5 from "./_components/FranchisingSection5";
 
 const Page = () => {
   useEffect(() => {
@@ -51,12 +54,12 @@ const Page = () => {
               loading="lazy"
             />
           </div>
-          <div className="flex justify-evenly gap-10 absolute bottom-0 left-0 right-0 px-6 items-center bg-franchising-page-gradient w-full">
+          <div className=" justify-evenly gap-10 absolute bottom-0 left-0 right-0 hidden md:flex px-6 items-center bg-franchising-page-gradient w-full ">
             <div className="w-1/3 text-center">
               <p className="text-6xl md:text-7xl italic font-bold text-heroTextColor">
                 350K+
               </p>
-              <h3 className="text-slate-50 font-medium text-2xl">
+              <h3 className="text-slate-50 font-medium text-2xl uppercase">
                 Sandwiches Crafted Per Location
               </h3>
             </div>
@@ -64,7 +67,7 @@ const Page = () => {
               <p className="text-6xl md:text-7xl italic font-bold text-heroTextColor">
                 60+
               </p>
-              <h3 className="text-slate-50 font-medium text-2xl">
+              <h3 className="text-slate-50 font-medium text-2xl uppercase">
                 employees on our growing team
               </h3>
             </div>
@@ -72,7 +75,7 @@ const Page = () => {
               <p className="text-6xl md:text-7xl italic font-bold text-heroTextColor">
                 120K+
               </p>
-              <h3 className="text-slate-50 font-medium text-2xl">
+              <h3 className="text-slate-50 font-medium text-2xl uppercase">
                 social media followers and millions of monthly viewers
               </h3>
             </div>
@@ -80,6 +83,10 @@ const Page = () => {
         </div>
       </section>
       <FranchisingSection1 />
+      <FranchisingSection2 />
+      <FranchisingSection3 />
+      <FranchisingSection4 />
+      <FranchisingSection5 />
     </>
   );
 };
