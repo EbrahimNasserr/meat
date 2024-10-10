@@ -1,9 +1,9 @@
 const FranchisingSection4 = () => {
   return (
-    <section className="py-24 bg-sectionColor">
+    <section className="py-24 bg-sectionColor px-6">
       <div className="container mx-auto">
         <h2 className="custom-h2">invesmtnent</h2>
-        <table class="franchise-table container mx-auto">
+        <table class="franchise-table">
           <thead>
             <tr>
               <th>Type of Expenditure</th>

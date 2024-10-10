@@ -102,12 +102,15 @@ body {
   box-shadow: 0px 41.69px 33.35px 0px #0000000d;
 }
 
-.franchise-table {
+table {
   margin-top: 50px;
   border-collapse: collapse;
+  overflow-x: scroll  ;
+  display: block;
+  border-radius: 12px;
 }
 
-.franchise-table thead {
+table thead tr {
   border-bottom: 1px solid #ddd;
   color: #123661;
   padding-top: 50px !important;

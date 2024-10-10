@@ -1,6 +1,12 @@
+import { useGetReviewsQuery } from "@/api/apiSlice";
+import Error from "@/app/error";
+import Loader from "@/app/loading";
 import Image from "next/image";
 
 const Reviews = () => {
+  const { data, error, isLoading } = useGetReviewsQuery();
+  if (isLoading) return <Loader />;
+  if (error) return <Error />;
   return (
     <section className="w-full flex justify-center items-center py-24 bg-review-layer-image bg-white bg-no-repeat bg-right ">
       <div className="container">
@@ -13,67 +19,25 @@ const Reviews = () => {
           </p>
         </div>
         <div className="max-w-[90%] mx-auto py-10 flex flex-col md:flex-row gap-5">
-          <div className="w-full bg-boxColorBlack text-white rounded-xl p-6 ">
-            <h2 className=" font-bold uppercase text-xl">John Kim</h2>
-            <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
-              <span className=" mr-3">5.0</span>
-              <Image
-                src="/Star.png"
-                alt="star"
-                width={80}
-                height={80}
-                loading="lazy"
-              />
+          {data?.data?.slice(0, 3).map((item) => (
+            <div
+              key={item.id}
+              className="w-full bg-boxColorBlack text-white rounded-xl p-6 "
+            >
+              <h2 className=" font-bold uppercase text-xl">{item.name}</h2>
+              <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
+                <span className=" mr-3">{item.rate}</span>
+                <Image
+                  src="/Star.png"
+                  alt="star"
+                  width={80}
+                  height={80}
+                  loading="lazy"
+                />
+              </div>
+              <p className="pt-3 line-clamp-3">{item.review}</p>
             </div>
-            <p className="pt-3 line-clamp-3">
-              My favorite burger place in Amman. Small restaurant but it is very
-              busy. There is a cue during the evening. If you want to eat when
-              there is less people, go during lunch.Their beef burger is really
-              really good. Chicken is also good, but beef is better. The chicken
-              tenders are also good
-            </p>
-          </div>
-          <div className="w-full bg-boxColorBlack text-white rounded-xl p-6 ">
-            <h2 className=" font-bold uppercase text-xl mb- line-clamp-3">
-              Rasheed Raya
-            </h2>
-            <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
-              <span className=" mr-3">5.0</span>
-              <Image
-                src="/Star.png"
-                alt="star"
-                width={80}
-                height={80}
-                loading="lazy"
-              />
-            </div>
-            <p className="pt-3 line-clamp-3">
-              When you come from a European country where you hardly find a good
-              halal burger and then you visit meat and cheese you will go wild
-              😅. It&apos;s really the best of the best , go for lady Gaga (The
-              sandwich 😉), it will put you directly in the mood and give you
-              all the joy you expect from a perfect sandwich. The staff is
-              really friendly and always smiling.
-            </p>
-          </div>
-          <div className="w-full bg-boxColorBlack text-white rounded-xl p-6 ">
-            <h2 className=" font-bold uppercase text-xl"> Leen</h2>
-            <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
-              <span className=" mr-3">5.0</span>
-              <Image
-                src="/Star.png"
-                alt="star"
-                width={80}
-                height={80}
-                loading="lazy"
-              />
-            </div>
-            <p className="pt-3 line-clamp-3">
-              100000/10 burger. It&apos;s a must-visit spot that delivers on
-              taste, presentation, and overall experience! I got the bob marley
-              burger it was beyond delightful!!
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </section>
