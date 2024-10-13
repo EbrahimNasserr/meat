@@ -111,7 +111,7 @@ const MenuPage = () => {
                     ADDONS
                   </p>
                   <p className="text-heroTextColor text-2xl font-semibold">
-                    20 JOD
+                  {item.price + " " + "JOD"}
                   </p>
                 </div>
                 <div className="flex justify-center items-center">
