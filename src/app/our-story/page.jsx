@@ -29,7 +29,7 @@ const OurStory = () => {
   }, []);
   return (
     <>
-      <section className=" h-[140vh] lg:h-screen bg-[#1d1d1b] relative ">
+      <section className=" h-[160vh] lg:h-screen bg-[#1d1d1b] relative ">
         <div className="container h-full mx-auto">
           <div className="flex px-6 justify-center gap-20 flex-col items-center mx-auto h-full lg:flex-row lg:justify-between ">
             <div animate="true" className=" ">
