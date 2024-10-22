@@ -52,7 +52,7 @@ const FranchisingSection1 = () => {
               this exciting journey and discover how Meat & Cheezz can make a
               difference in your life. Together, let&apos;s continue to{" "}
               <span className="text-heroTextColor">&quot;Cheezz it!&quot;</span>{" "}
-              Sincerely, Mohammad Qadoumi Co-Founder, Meat & Cheez
+              <br />Sincerely,
             </p>
             <Image
               src="/muhammad-ali-signature.png"
@@ -61,6 +61,7 @@ const FranchisingSection1 = () => {
               width={500}
               height={500}
             />
+            <p className="text-slate-50 font-bold italic text-3xl">Mohammad Qadoumi <br /> Co-Founder,  <br />Meat & Cheezz</p>
           </div>
           <div className="image flex md:justify-end md:items-start justify-center items-center">
             <Image

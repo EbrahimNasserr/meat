@@ -21,7 +21,7 @@ const OurStory4 = () => {
                   business model, and now, Meat & Cheezz is ready to spread its
                   cheesy goodness across Jordan and beyond.
                 </p>
-                <p className="text-2xl uppercase font-medium text-slate-50">
+                <p className="text-2xl uppercase text-slate-50">
                   This is more than a story of burgers; it&apos;s a tale of
                   vision, determination, and the power of believing in something
                   when no one else does. Meat & Cheezz isn&apos;t just a

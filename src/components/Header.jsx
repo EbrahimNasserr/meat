@@ -28,7 +28,7 @@ const Header = () => {
               <Link
                 className={`${
                   pathname === "/"
-                    ? " text-navColor text-base uppercase font-semibold"
+                    ? " text-heroTextColor text-base uppercase font-semibold"
                     : "text-base uppercase font-semibold"
                 }`}
                 href="/"
@@ -40,7 +40,7 @@ const Header = () => {
               <Link
                 className={`${
                   pathname === "/menu"
-                    ? " text-navColor text-base uppercase font-semibold"
+                    ? "  text-heroTextColor text-base uppercase font-semibold"
                     : "text-base uppercase font-semibold"
                 }`}
                 href="/menu"
@@ -52,7 +52,7 @@ const Header = () => {
               <Link
                 className={`${
                   pathname === "/our-story"
-                    ? " text-navColor text-base uppercase font-semibold"
+                    ? "  text-heroTextColor text-base uppercase font-semibold"
                     : "text-base uppercase font-semibold"
                 }`}
                 href="/our-story"
@@ -63,8 +63,8 @@ const Header = () => {
             <li>
               <Link
                 className={`${
-                  pathname === "/Franchising"
-                    ? " text-navColor text-base uppercase font-semibold"
+                  pathname === "/franchising"
+                    ? "  text-heroTextColor text-base uppercase font-semibold"
                     : "text-base uppercase font-semibold"
                 }`}
                 href="/franchising"
@@ -76,7 +76,7 @@ const Header = () => {
               <Link
                 className={`${
                   pathname === "/careers"
-                    ? " text-navColor text-base uppercase font-semibold"
+                    ? "  text-heroTextColor text-base uppercase font-semibold"
                     : "text-base uppercase font-semibold"
                 }`}
                 href="/careers"
@@ -88,7 +88,7 @@ const Header = () => {
               <Link
                 className={`${
                   pathname === "/contact"
-                    ? " text-navColor text-base uppercase font-semibold"
+                    ? "  text-heroTextColor text-base uppercase font-semibold"
                     : "text-base uppercase font-semibold"
                 }`}
                 href="/contact"

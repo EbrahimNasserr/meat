@@ -11,8 +11,8 @@ const FranchisingSection5 = () => {
               What do I receive as part of the franchise package?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-center absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
@@ -20,8 +20,8 @@ const FranchisingSection5 = () => {
               Can I operate the franchise using my own tech systems?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-center absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
@@ -29,15 +29,15 @@ const FranchisingSection5 = () => {
               Can I cancel the franchise agreement and receive a refund?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-center absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
             <p className="">Is training provided for staff and management?</p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-center absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
@@ -45,8 +45,8 @@ const FranchisingSection5 = () => {
               Can I use local suppliers for ingredients and equipment?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-center absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
@@ -54,8 +54,8 @@ const FranchisingSection5 = () => {
               Do I need to follow a specific layout or restaurant design?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-center absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
@@ -63,8 +63,8 @@ const FranchisingSection5 = () => {
               How is this burger franchise better than others in the UAE market?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-center absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
@@ -72,8 +72,8 @@ const FranchisingSection5 = () => {
               Are there ongoing fees or hidden costs involved in the franchise?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0 left-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-left absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
           <li className=" relative mb-5 flex items-center justify-between text-2xl font-semibold text-slate-50 p-6">
@@ -81,8 +81,8 @@ const FranchisingSection5 = () => {
               How often are updates or menu changes introduced?
             </p>
             <Image src="/SVG.png" alt="svg" width={20} height={20} />
-            <div className="w-full flex justify-center absolute bottom-0">
-              <div className="w-[80%] border-b border-slate-300"></div>
+            <div className="w-full flex justify-left absolute bottom-0">
+              <div className="w-full border-b border-slate-300"></div>
             </div>
           </li>
         </ul>

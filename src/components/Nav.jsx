@@ -25,7 +25,7 @@ export default function Nav({ open, setOpen }) {
           }}
           className={`${
             pathname === "/"
-              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 text-amber-500 rounded-lg"
+              ? "underline underline-offset-[10px] decoration-2 decoration-amber-50 text-heroTextColor rounded-lg"
               : ""
           }`}
         >
@@ -38,7 +38,7 @@ export default function Nav({ open, setOpen }) {
           }}
           className={`${
             pathname === "/menu"
-              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg  text-amber-500"
+              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg text-heroTextColor"
               : ""
           }`}
         >
@@ -51,7 +51,7 @@ export default function Nav({ open, setOpen }) {
           }}
           className={`${
             pathname === "/our-story"
-              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg  text-amber-500"
+              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg text-heroTextColor"
               : ""
           }`}
         >
@@ -64,7 +64,7 @@ export default function Nav({ open, setOpen }) {
           }}
           className={`${
             pathname === "/franchising"
-              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg  text-amber-500"
+              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg text-heroTextColor"
               : ""
           }`}
         >
@@ -77,7 +77,7 @@ export default function Nav({ open, setOpen }) {
           }}
           className={`${
             pathname === "/careers"
-              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg  text-amber-500"
+              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg text-heroTextColor"
               : ""
           }`}
         >
@@ -90,7 +90,7 @@ export default function Nav({ open, setOpen }) {
           }}
           className={`${
             pathname === "/contact"
-              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg  text-amber-500"
+              ? "underline underline-offset-[10px] decoration-2 decoration-amber-500 rounded-lg text-heroTextColor"
               : ""
           }`}
         >

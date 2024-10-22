@@ -26,14 +26,14 @@ const Hero = () => {
   return (
     <section className=" h-screen bg-hero-image bg-contain bg-sectionColor bg-no-repeat bg-center">
       <div className="text-white flex flex-col items-center justify-center h-full relative">
-        <div  className=" relative z-40 top-10 w-full">
+        <div  className=" relative z-40 top-12 w-full">
           <h1 animate="true" className=" text-7xl text-heroTextColor font-bold text-center -rotate-[5deg] z-50 relative bottom-6 lg:bottom-20">
             LETS <br />
             <span animate="true" className=" font-extrabold text-6xl md:text-8xl lg:text-[7rem] text-white text-stroke font-sans italic ">
               CHEEZZ IT!
             </span>
           </h1>
-          <div className="w-full flex flex-col lg:flex-row lg:justify-center items-center gap-10 bg-buttons-hero-background z-40 h-[178px] ">
+          <div className="w-full flex flex-col lg:flex-row lg:justify-center items-center gap-2 bg-buttons-hero-background z-40 h-[90px] ">
             <Link
               className=" z-50 w-52 h-11 flex justify-center items-center bg-heroTextColor uppercase text-white rounded-2xl"
               href="/our-story"

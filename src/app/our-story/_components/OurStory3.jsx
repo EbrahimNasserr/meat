@@ -19,7 +19,7 @@ const OurStory3 = () => {
               <h2 className=" font-bold italic text-4xl text-heroTextColor">
                 The Social Media Revolution
               </h2>
-              <p className=" font-bold italic text-2xl text-slate-50 uppercase my-5">
+              <p className="  italic text-2xl text-slate-50 uppercase my-5">
                 Armed with their perfected menu and new identity, the brothers
                 launched a bold social media campaign. The phrase{" "}
                 <span className="font-bold italic text-2xl text-heroTextColor mr-2">

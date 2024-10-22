@@ -6,7 +6,10 @@ import Link from "next/link";
 import { CiHeart } from "react-icons/ci";
 import Loader from "../loading";
 import Error from "../error";
+import toast, { Toaster } from "react-hot-toast";
+
 const MenuPage = () => {
+  const notify = () => toast("you can't order now.");
   const { data, error, isLoading } = useGetProductsQuery();
 
   return (
@@ -86,15 +89,17 @@ const MenuPage = () => {
                 key={item.id}
                 className="relative text-[#292E36] bg-white rounded-xl p-6 px-3 pb-12"
               >
-                <div className="flex justify-center absolute w-full -top-40 md:-top-40 left-0">
-                  <Image
-                    src={item.image}
-                    alt="menu"
-                    width={200}
-                    height={200}
-                    className=" max-md:w-[400px] md:w-[400px]"
-                    loading="lazy"
-                  />
+                <div className="flex justify-center absolute w-full -top-24 md:-top-[6rem] left-0 items-center h-[160px]">
+                  <div className="max-md:w-[250px] md:w-[250px]">
+                    <Image
+                      src={item.image}
+                      alt="menu"
+                      width={200}
+                      height={200}
+                      className=" w-full"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
                 <div className="flex justify-between items-center pt-24 pb-3 px-1 border-b-slate-500 border-b-2">
                   <CiHeart className=" text-3xl" />
@@ -111,13 +116,17 @@ const MenuPage = () => {
                     ADDONS
                   </p>
                   <p className="text-heroTextColor text-2xl font-semibold">
-                  {item.price + " " + "JOD"}
+                    {item.price + " " + "JOD"}
                   </p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className=" py-4 px-12 bg-black absolute rounded-lg -bottom-8 text-slate-50">
+                  <button
+                    onClick={notify}
+                    className=" py-4 px-12 bg-black absolute rounded-lg -bottom-8 text-slate-50"
+                  >
                     ORDER
                   </button>
+                  <Toaster />
                 </div>
               </div>
             ))}

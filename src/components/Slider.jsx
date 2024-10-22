@@ -78,7 +78,7 @@ function SimpleSlider() {
             <h2 className="text-shadow ">Feel the Hype</h2>
             <div className="flex flex-col gap-8 justify-between mt-12 md:flex-row-reverse xl:justify-evenly">
               <div className=" flex flex-col items-end gap-8">
-                <div className="box1 shadow-hype-custom-shadow flex flex-col justify-evenly items-center bg-box-gradient p-12 rounded-2xl w-full sm:flex-row md:flex-col md:w-[85%] lg:flex-row lg:w-full xl:w-[90%]">
+                <div className="box1 shadow-hype-custom-shadow flex flex-col justify-evenly items-center bg-box-gradient p-6 rounded-2xl w-full sm:flex-row md:flex-col md:w-[85%] lg:flex-row lg:w-full xl:w-[90%]">
                   <div className="text-center max-w-lg">
                     <h3 className="italic font-sans uppercase font-bold text-stroke text-5xl text-slate-50 mb-3">
                       share <br /> memories
@@ -101,7 +101,7 @@ function SimpleSlider() {
                     />
                   </div>
                 </div>
-                <div className="box2 shadow-hype-custom-shadow flex flex-col-reverse justify-between gap-5 items-center bg-box-gradient p-12 rounded-2xl sm:w-full sm:flex-row-reverse md:flex-col md:w-[85%] lg:flex-row-reverse lg:w-full xl:w-[90%]">
+                <div className="box2 shadow-hype-custom-shadow flex flex-col-reverse justify-between gap-5 items-center bg-box-gradient p-6 rounded-2xl sm:w-full sm:flex-row-reverse md:flex-col md:w-[85%] lg:flex-row-reverse lg:w-full xl:w-[90%]">
                   <div className="text-center">
                     <h3 className="italic font-sans uppercase font-bold text-stroke text-5xl text-slate-50 mb-3">
                       more <br /> about us
@@ -126,7 +126,7 @@ function SimpleSlider() {
                 </div>
               </div>
               <div className=" flex justify-center items-center">
-                <div className="box3 shadow-hype-custom-shadow w-full flex flex-col-reverse justify-between gap-5 items-center bg-box-gradient p-6 rounded-2xl sm:flex-row md:flex-col xl:h-[80%] xl:justify-evenly ">
+                <div className="box3 shadow-hype-custom-shadow w-full flex flex-col-reverse justify-between gap-5 items-center bg-box-gradient p-6 rounded-2xl sm:flex-row md:flex-col xl:h-[90%] xl:justify-evenly ">
                   <div className="text-center max-w-lg">
                     <h3 className="italic font-sans uppercase font-bold text-stroke text-5xl text-slate-50 mb-3">
                       join the trend
@@ -142,7 +142,7 @@ function SimpleSlider() {
                   <div className="">
                     <Image
                       src="/hype3.png"
-                      width={350}
+                      width={400}
                       height={250}
                       alt="group"
                       loading="lazy"

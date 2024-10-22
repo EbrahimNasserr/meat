@@ -2,6 +2,7 @@ import { useGetReviewsQuery } from "@/api/apiSlice";
 import Error from "@/app/error";
 import Loader from "@/app/loading";
 import Image from "next/image";
+import { FaStar } from "react-icons/fa";
 
 const Reviews = () => {
   const { data, error, isLoading } = useGetReviewsQuery();
@@ -28,13 +29,12 @@ const Reviews = () => {
               <h2 className=" font-bold uppercase text-xl">{item.name}</h2>
               <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
                 <span className=" mr-3">{item.rate}</span>
-                <Image
-                  src="/Star.png"
-                  alt="star"
-                  width={80}
-                  height={80}
-                  loading="lazy"
-                />
+                {Array.from({ length: item.rate }, (_, index) => (
+                  <FaStar
+                    key={index}
+                    color={index < item.rate ? "#DFAF26" : "lightgray"}
+                  />
+                ))}
               </div>
               <p className="pt-3 line-clamp-3">{item.review}</p>
             </div>

@@ -30,7 +30,7 @@ const FranchisingSection3 = () => {
                       fill="#DFAF27"
                     />
                   </svg>
-                  <h3 class="text-3xl text-center font-bold italic uppercase">
+                  <h3 class="text-xl text-center font-bold italic uppercase">
                     Initial Inquiry
                   </h3>
                 </div>
@@ -68,7 +68,7 @@ const FranchisingSection3 = () => {
                       fill="#DFAF27"
                     />
                   </svg>
-                  <h3 class="text-3xl text-center font-bold italic uppercase">
+                  <h3 class="text-xl text-center font-bold italic uppercase">
                     Franchise Disclosure
                   </h3>
                 </div>
@@ -108,7 +108,7 @@ const FranchisingSection3 = () => {
                         fill="#DFAF27"
                       />
                     </svg>
-                    <h3 class="text-3xl text-center font-bold italic uppercase">
+                    <h3 class="text-xl text-center font-bold italic uppercase">
                       Application Submittion
                     </h3>
                   </div>
@@ -149,7 +149,7 @@ const FranchisingSection3 = () => {
                         fill="#DFAF27"
                       />
                     </svg>
-                    <h3 class="text-xl text-center font-bold italic uppercase">
+                    <h3 class="text-xs text-center font-bold italic uppercase">
                       Background Check & Financial Veri cation
                     </h3>
                   </div>
@@ -189,7 +189,7 @@ const FranchisingSection3 = () => {
                         fill="#DFAF27"
                       />
                     </svg>
-                    <h3 class="text-3xl text-center font-bold italic uppercase">
+                    <h3 class="text-xl text-center font-bold italic uppercase">
                       Financial Review
                     </h3>
                   </div>
@@ -230,7 +230,7 @@ const FranchisingSection3 = () => {
                         fill="#DFAF27"
                       />
                     </svg>
-                    <h3 class="text-3xl text-center font-bold italic uppercase">
+                    <h3 class="text-xl text-center font-bold italic uppercase">
                       Due Diligence
                     </h3>
                   </div>
@@ -268,7 +268,7 @@ const FranchisingSection3 = () => {
                         fill="#DFAF27"
                       />
                     </svg>
-                    <h3 class="text-xl text-center font-bold italic uppercase">
+                    <h3 class="text-sm text-center font-bold italic uppercase">
                       Final Approval & Franchise Agreement
                     </h3>
                   </div>
@@ -309,7 +309,7 @@ const FranchisingSection3 = () => {
                         fill="#DFAF27"
                       />
                     </svg>
-                    <h3 class="text-xl text-center font-bold italic uppercase">
+                    <h3 class="text-lg text-center font-bold italic uppercase">
                       Preparation, Training, & Launch
                     </h3>
                   </div>

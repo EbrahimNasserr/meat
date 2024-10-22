@@ -21,18 +21,18 @@ const OurStorySection = () => {
                 <h2 className=" font-bold italic text-4xl text-heroTextColor">
                   The Leap of Faith
                 </h2>
-                <p className=" font-bold italic text-2xl text-slate-50 uppercase my-5">
-                  <span className=" font-medium text-2xl text-heroTextColor">
+                <p className=" italic text-2xl text-slate-50 uppercase my-5">
+                  <span className=" font-bold text-2xl text-heroTextColor">
                     In 2019
                   </span>
                   , two brothers, Mohammad the accountant and Yehya the sous
                   chef, stood at a crossroads. With all their savings in hand,
                   they took a daring
-                  <span className="font-medium ml-2 text-2xl text-heroTextColor">
+                  <span className="font-bold ml-2 text-2xl text-heroTextColor">
                     leap of faith,
                   </span>
                 </p>
-                <p className="text-2xl uppercase font-medium text-slate-50">
+                <p className="text-2xl uppercase text-slate-50">
                   purchasing a struggling restaurant called Meat & Cheese. The
                   name didn&apos;t match the menu, and the place was devoid of
                   customers. But the brothers saw potential where others saw

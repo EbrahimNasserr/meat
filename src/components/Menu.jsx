@@ -4,8 +4,10 @@ import Loader from "@/app/loading";
 import Image from "next/image";
 import Link from "next/link";
 import { CiHeart } from "react-icons/ci";
+import toast, { Toaster } from "react-hot-toast";
 
 const Menu = () => {
+  const notify = () => toast("you can't order now.");
   const { data, error, isLoading } = useGetProductsQuery();
   return (
     <section className="py-24 bg-heroTextColor flex justify-center items-center">
@@ -19,14 +21,14 @@ const Menu = () => {
               key={item.id}
               className="relative text-[#292E36] bg-white rounded-xl p-6 px-3 pb-12"
             >
-              <div className="flex justify-center absolute w-full -top-40 md:-top-52 left-0">
-                <div>
+              <div className="flex justify-center absolute w-full -top-24 md:-top-[6rem] left-0 items-center h-[160px]">
+                <div className="max-md:w-[250px] md:w-[250px]">
                   <Image
                     src={item.image}
                     alt="menu"
                     width={200}
                     height={200}
-                    className=" max-md:w-[400px] md:w-[400px]"
+                    className=" w-full"
                     loading="lazy"
                   />
                 </div>
@@ -50,9 +52,10 @@ const Menu = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center">
-                <button className=" py-4 px-12 bg-black absolute rounded-lg -bottom-8 text-slate-50">
+                <button onClick={notify} className=" py-4 px-12 bg-black absolute rounded-lg -bottom-8 text-slate-50">
                   ORDER
                 </button>
+                <Toaster />
               </div>
             </div>
           ))}

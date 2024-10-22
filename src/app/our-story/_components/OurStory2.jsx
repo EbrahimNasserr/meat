@@ -17,7 +17,7 @@ const OurStory2 = () => {
                 these masterpieces until every bite was a taste of culinary
                 perfection.
               </p>
-              <p className="text-2xl uppercase font-medium text-slate-50">
+              <p className="text-2xl uppercase text-slate-50">
                 With these in hand, they hit the streets, offering samples to
                 anyone who would try them. People were hooked. Alongside these
                 iconic creations, they rebranded the restaurant, embracing a

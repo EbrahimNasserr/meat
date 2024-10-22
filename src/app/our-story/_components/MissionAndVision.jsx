@@ -7,8 +7,8 @@ const MissionAndVision = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10 ">
           <div className="">
-            <div className="content">
-              <p className=" text-2xl leading-relaxed font-medium text-slate-50 uppercase">
+            <div className="content bg-slate-50 bg-opacity-50 p-3 rounded">
+              <p className=" text-2xl leading-relaxed text-slate-50 uppercase">
                 <span className="font-bold text-heroTextColor">Vision: </span>
                 To become the go-to destination for cheese-lovers across the
                 globe, spreading the Meat & Cheezz vibe from Jordan to the
@@ -19,8 +19,8 @@ const MissionAndVision = () => {
               </p>
             </div>
           </div>
-          <div className="content">
-            <p className="text-2xl leading-relaxed font-medium text-slate-50 uppercase">
+          <div className="content  bg-slate-50 bg-opacity-50 p-3 rounded">
+            <p className="text-2xl leading-relaxed text-slate-50 uppercase">
               <span className="font-bold text-heroTextColor">Mission: </span>
               To craft unforgettable, cheese-loaded experiences that bring
               people together in a vibrant, fun atmosphere. We&apos;re here to
