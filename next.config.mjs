@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "api.meatandcheezz.com",
+        hostname: "dashboard.meatandcheezz.com",
         pathname: "/**", // Add this line
       },
     ],

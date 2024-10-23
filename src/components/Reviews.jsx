@@ -27,12 +27,13 @@ const Reviews = () => {
               className="w-full bg-boxColorBlack text-white rounded-xl p-6 "
             >
               <h2 className=" font-bold uppercase text-xl">{item.name}</h2>
-              <div className="flex items-center gap-2 pb-3 border-b-2 border-[#797E89]">
-                <span className=" mr-3">{item.rate}</span>
+              <div className="flex items-center gap-1 pb-3 border-b-2 border-[#797E89]">
+                <span className=" mr-3 text-base font-semibold">{item.rate + ".0"}</span>
                 {Array.from({ length: item.rate }, (_, index) => (
                   <FaStar
                     key={index}
                     color={index < item.rate ? "#DFAF26" : "lightgray"}
+                    className=" text-xl"
                   />
                 ))}
               </div>

@@ -11,7 +11,7 @@ const FranchisingSection2 = () => {
               <h3 className="text-heroTextColor py-3 text-lg font-bold">
                 SELECTIVE
               </h3>
-              <p className=" font-medium text-sm text-[#123661]">
+              <p className=" font-medium text-sm text-[#000]">
                 Its Not for Everyone. Running a Meat & Cheezz franchise requires
                 energy, dedication, and a passion for serving delicious food.
                 It&apos;s a hands-on business that thrives on building
@@ -23,7 +23,7 @@ const FranchisingSection2 = () => {
               <h3 className="text-heroTextColor py-3 text-lg font-bold">
                 INVESTMENT
               </h3>
-              <p className=" font-medium text-sm text-[#123661]">
+              <p className=" font-medium text-sm text-[#000]">
                 Your Path to Success. Several factors influence your startup
                 costs, including location and property condition. Estimated
                 initial investments range from $145k to $786k, with a detailed
@@ -34,7 +34,7 @@ const FranchisingSection2 = () => {
               <h3 className="text-heroTextColor py-3 text-lg font-bold">
                 RISK
               </h3>
-              <p className=" font-medium text-sm text-[#123661]">
+              <p className=" font-medium text-sm text-[#000]">
                 Navigating Challenges. Operating a quick-service restaurant can
                 be complex. While success and return on investment often reflect
                 your hard work and business savvy, it&apos;s important to note
@@ -45,7 +45,7 @@ const FranchisingSection2 = () => {
               <h3 className="text-heroTextColor py-3 text-lg font-bold">
                 STEWARDSHIP
               </h3>
-              <p className=" font-medium text-sm text-[#123661]">
+              <p className=" font-medium text-sm text-[#000]">
                 Leading with Purpose. At Meat & Cheezz, we believe in giving
                 back. Our franchise owners not only lead their teams but also
                 positively impact their communities. Together, we create a

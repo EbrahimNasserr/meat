@@ -35,7 +35,7 @@ const FranchisingSection1 = () => {
             <h2 className="font-bold italic text-5xl sm:text-7xl text-heroTextColor">
               Ready to <br /> &quot;Cheezz it&quot;?
             </h2>
-            <p className="text-slate-50 py-7 font-bold italic text-3xl">
+            <p className="text-slate-50 py-7 italic text-3xl">
               Thank you for considering the opportunity to join the Meat &
               Cheezz family! W&apos;re excited to share our journey with you and
               explore how you can be a part of something truly special. Since
@@ -51,17 +51,17 @@ const FranchisingSection1 = () => {
               you&apos;ll bring that spirit to your own location. Join us on
               this exciting journey and discover how Meat & Cheezz can make a
               difference in your life. Together, let&apos;s continue to{" "}
-              <span className="text-heroTextColor">&quot;Cheezz it!&quot;</span>{" "}
+              <span className="text-heroTextColor font-bold">&quot;Cheezz it!&quot;</span>{" "}
               <br />Sincerely,
             </p>
             <Image
               src="/muhammad-ali-signature.png"
               alt="signature"
               loading="lazy"
-              width={500}
-              height={500}
+              width={200}
+              height={200}
             />
-            <p className="text-slate-50 font-bold italic text-3xl">Mohammad Qadoumi <br /> Co-Founder,  <br />Meat & Cheezz</p>
+            <p className="text-slate-50 italic text-3xl">Mohammad Qadoumi <br /> Co-Founder,  <br />Meat & Cheezz</p>
           </div>
           <div className="image flex md:justify-end md:items-start justify-center items-center">
             <Image

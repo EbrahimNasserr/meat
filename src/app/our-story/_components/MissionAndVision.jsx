@@ -5,20 +5,7 @@ const MissionAndVision = () => {
         <h2 className=" font-bold italic text-4xl text-heroTextColor uppercase text-center">
           Mission & Vision
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10 ">
-          <div className="">
-            <div className="content bg-slate-50 bg-opacity-50 p-3 rounded">
-              <p className=" text-2xl leading-relaxed text-slate-50 uppercase">
-                <span className="font-bold text-heroTextColor">Vision: </span>
-                To become the go-to destination for cheese-lovers across the
-                globe, spreading the Meat & Cheezz vibe from Jordan to the
-                world. We envision a future where our brand is synonymous with
-                indulgent, unforgettable food experiences, connecting people
-                through the universal love of cheese, one delicious bite at a
-                time.
-              </p>
-            </div>
-          </div>
+        <div className="grid grid-cols-1 gap-10 py-10 ">
           <div className="content  bg-slate-50 bg-opacity-50 p-3 rounded">
             <p className="text-2xl leading-relaxed text-slate-50 uppercase">
               <span className="font-bold text-heroTextColor">Mission: </span>
@@ -31,9 +18,20 @@ const MissionAndVision = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center items-center">
-            <button className="btn">join us</button>
+
+        <div className="content bg-slate-50 bg-opacity-50 p-3 rounded">
+          <p className=" text-2xl leading-relaxed text-slate-50 uppercase">
+            <span className="font-bold text-heroTextColor">Vision: </span>
+            To become the go-to destination for cheese-lovers across the globe,
+            spreading the Meat & Cheezz vibe from Jordan to the world. We
+            envision a future where our brand is synonymous with indulgent,
+            unforgettable food experiences, connecting people through the
+            universal love of cheese, one delicious bite at a time.
+          </p>
         </div>
+      </div>
+      <div className="flex justify-center mt-10 items-center">
+        <button className="btn">join us</button>
       </div>
     </section>
   );

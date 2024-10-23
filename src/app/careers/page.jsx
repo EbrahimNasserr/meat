@@ -8,9 +8,9 @@ import Section4 from "./_components/Section4";
 const Careers = () => {
   return (
     <>
-      <section className=" lg:h-screen bg-[#1d1d1b] relative ">
-        <div className="container w-full h-full mx-auto pt-36">
-          <div className=" flex flex-col lg:flex-row lg:items-center lg:justify-between h-full">
+      <section className="h-[200vh] lg:h-[130vh] bg-[#1d1d1b] relative ">
+        <div className="container w-full h-full mx-auto pt-36 md:pt-12 lg:pt-0">
+          <div className=" flex flex-col justify-center lg:flex-row lg:items-center lg:justify-between h-full">
             <div className="box lg:w-1/2 w-full flex justify-center items-center text-center lg:text-start ">
               <div className="content w-[90%] text-slate-50">
                 <h1 className=" font-bold italic text-heroTextColor text-7xl uppercase">

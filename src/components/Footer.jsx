@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="w-full bg-heroTextColor py-24 flex justify-center items-center">
       <div className="container">
         <div className="w-[80%] mx-auto flex flex-col justify-between items-center">
-          <div className="w-full text-center sm:text-left bg-franchising-box-gradient md:h-[300px] shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-16 p-6 xl:flex-row">
+          <div className="w-full text-center sm:text-left bg-franchising-box-gradient xl:h-[300px] shadow-custom-shadow rounded-xl flex flex-col justify-between items-center gap-4 p-6 xl:flex-row">
             <div className="flex flex-col items-start">
               <h2 className=" text-5xl pl-3 font-bold text-stroke uppercase italic font-sans text-white">get in touch</h2>
               <p className=" text-slate-50 p-3 leading-5">
@@ -88,7 +88,7 @@ const Footer = () => {
               <h3 className="text-3xl font-semibold uppercase mb-3">about</h3>
               <ul className="uppercase">
                 <li className="font-semibold mb-1">
-                  <Link href="/Franchising">Franchising</Link>
+                  <Link href="/franchising">Franchising</Link>
                 </li>
                 <li className="font-semibold mb-1">
                   <Link href="/careers">careers</Link>

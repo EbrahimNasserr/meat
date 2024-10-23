@@ -110,7 +110,7 @@ const MenuPage = () => {
                 </p>
                 <div className="bg-[#F1F0F0] p-3 rounded-lg flex justify-between items-center">
                   <p className="bg-heroTextColor rounded-lg text-slate-50 px-2">
-                    <span className="bg-white px-1 text-heroTextColor mr-1">
+                    <span className="bg-white px-1 rounded text-heroTextColor mr-1">
                       +
                     </span>
                     ADDONS

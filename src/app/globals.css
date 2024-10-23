@@ -20,9 +20,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  text-shadow: 6.5px 0 0 #000, -6.5px 0 0 #000, 0 6.5px 0 #000, 0 -6.5px 0 #000,
-    6.5px 6.5px 0 #000, -6.5px -6.5px 0 #000, -6.5px 6.5px 0 #000,
-    6.5px -6.5px 0 #000;
+  text-shadow: -7.5px 0 0 #000, 0 6.5px 0 #000, 0 -6.5px 0 #000, -6.5px -6.5px 0 #000, -9.5px 6.5px 0 #000, 3.5px 0.5px 0 #000;
 }
 
 /* slider */
@@ -112,7 +110,7 @@ table {
 
 table thead tr {
   border-bottom: 1px solid #ddd;
-  color: #123661;
+  color: #000;
   padding-top: 50px !important;
   font-size: 18px;
   font-weight: 400;
@@ -122,6 +120,7 @@ table thead tr {
 .franchise-table td {
   padding: 10px;
   text-align: left;
+  color: #000;
 }
 
 .franchise-table th {
